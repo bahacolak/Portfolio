@@ -3,7 +3,7 @@ import { Container, Nav, NavLink} from 'react-bootstrap';
 import logo from "./images/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Navbar() {
+function Sidebar() {
   return (
     <>
     <Nav className="col-md-12 d-none d-md-block bg-light sidebar" activeKey="/home" onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
@@ -26,4 +26,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Sidebar
