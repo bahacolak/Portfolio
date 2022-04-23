@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Nav, NavLink } from 'react-bootstrap';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Sidebar() {
   return (
-    <div>Sidebar</div>
+    <Nav>
+        <div>
+            Hello
+        </div>
+    </Nav>
   )
 }
 
