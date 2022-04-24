@@ -15,6 +15,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import MySkills from './components/pages/MySkills';
 import Contact from './components/pages/Contact';
+import logo from "./components/images/logo.png";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       <div>
       <Navbar bg="dark" variant="dark">
     <Container fluid>
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <Navbar.Brand as={Link} to="/"><img src={logo} className="img1" /></Navbar.Brand>
     <Nav className="me-auto">
       <NavLink as={Link} to="/">Home</NavLink>
       <NavLink as={Link} to="/About">About</NavLink>
