@@ -1,8 +1,8 @@
 import React from "react";
-import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as IoIcons from "react-icons/io";
+import * as ImIcons from "react-icons/im";
 import * as MdIcons from "react-icons/md";
+import * as IoIcon from "react-icons/io";
 
 export const SidebarData = [
     {
@@ -14,25 +14,25 @@ export const SidebarData = [
     {
       title: "About",
       path: "/about",
-      icon: <MdIcons.MdAccountCircle/>,
+      icon: <IoIcon.IoIosMan/>,
       cName: "nav-text"
     },
     {
         title: "Skills",
         path: "/skills",
-        icon: <IoIcons.IoIosPaper />,
+        icon: <ImIcons.ImMagicWand />,
         cName: "nav-text"
       },
       {
         title: "Projects",
         path: "/projects",
-        icon: <FaIcons.FaCartPlus />,
+        icon: <AiIcons.AiOutlineProject />,
         cName: "nav-text"
       },
       {
         title: "Contact",
         path: "/contact",
-        icon: <FaIcons.FaCartPlus />,
+        icon: <MdIcons.MdAccountCircle />,
         cName: "nav-text"
       },
     ];
