@@ -35,4 +35,16 @@ export const SidebarData = [
         icon: <MdIcons.MdAccountCircle />,
         cName: "nav-text"
       },
+      {
+        title: "",
+        path: "/github",
+        icon: <AiIcons.AiOutlineGithub />,
+        cName: "nav-text"
+      },
+      {
+        title: "dfdfd",
+        path: "https://www.linkedin.com/feed/",
+        icon: <AiIcons.AiFillLinkedin />,
+        cName: "nav-text"
+      },
     ];
