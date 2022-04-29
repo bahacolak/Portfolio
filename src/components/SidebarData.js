@@ -42,7 +42,7 @@ export const SidebarData = [
         cName: "nav-text"
       },
       {
-        title: "dfdfd",
+        title: "",
         path: "https://www.linkedin.com/feed/",
         icon: <AiIcons.AiFillLinkedin />,
         cName: "nav-text"
