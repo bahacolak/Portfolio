@@ -24,6 +24,10 @@ function Sidebar() {
             <Link to="#" className='menu-bars'>
               <AiIcons.AiOutlineClose />
             </Link>
+            <div className='logo'>
+              <a className='github' href='https://github.com/bahacolak' target="_blank"><AiIcons.AiOutlineGithub fontSize="1.7em"/></a>
+              <a className='linkedin' href='https://www.linkedin.com/in/bahad%C4%B1r-%C3%A7olak-a2898a185/' target="_blank"><AiIcons.AiFillLinkedin fontSize="1.7em"/></a>
+            </div>
           </li> 
           {SidebarData.map((item, index) =>{
             return(
