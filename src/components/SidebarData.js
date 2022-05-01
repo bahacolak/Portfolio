@@ -33,6 +33,6 @@ export const SidebarData = [
         title: "Contact",
         path: "/contact",
         icon: <MdIcons.MdAccountCircle />,
-        cName: "nav-text"
-      }
+        cName: "nav-text"   
+      },
     ];
