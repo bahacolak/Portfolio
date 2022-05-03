@@ -18,7 +18,7 @@ function Sidebar() {
         <FaIcons.FaBars onClick={showSidebar} />
         </Link>
       </div>  
-      <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+      <nav className={sidebar ? "nav-menu active box-shadow" : "nav-menu"}>
         <ul className='nev-menu-items'onClick={showSidebar}>
           <li className='navbar-toggle'>
             <Link to="#" className='menu-bars'>
