@@ -20,7 +20,7 @@
 .contact
  {
   /* display: block; */
-  height:857px;
+  height:100vh;
   font-size: 3rem;
   background-color: rgb(35, 32, 32);
   color: white;
