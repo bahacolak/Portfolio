@@ -20,6 +20,8 @@
   }
   
   .home .container{
-    display: grid;
-    padding-top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
   }

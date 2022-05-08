@@ -103,8 +103,8 @@
     justify-content: flex-start;
     border-radius: 4px;
     position: absolute;
-    bottom: 300px;
-    margin-left: 30px;
+    bottom: 350px;
+    margin-left: 25px;
   }
 
   .github,.linkedin{
@@ -117,13 +117,13 @@
   color: rgb(155, 27, 27);
 }  
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
   .nav-menu{
     left: -100%;
   }
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:900px) {
   .navbar-toggle{
     display: none;
   }

@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-:root {
-  --bg-color: rgb(35, 32, 32);
-  --typewriterSpeed: 0.5s;
-  --typewriterCharacters: 4;
-}
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -19,9 +13,7 @@
 .projects,
 .contact
  {
-  /* display: block; */
   height:100vh;
-  font-size: 3rem;
   background-color: rgb(35, 32, 32);
   color: white;
 }
