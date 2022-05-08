@@ -26,7 +26,7 @@
     justify-content: center;
     position: fixed;
     top: 0;
-    left: -100%;
+    /* left: -100%; */
     transition: 850ms;
   }
   
@@ -116,5 +116,21 @@
   .github:hover,.linkedin:hover{
   color: rgb(155, 27, 27);
 }  
+
+@media screen and (max-width:600px) {
+  .nav-menu{
+    left: -100%;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .navbar-toggle{
+    display: none;
+  }
+
+  .menu-bars{
+    display: none;
+  }
+}
 
 

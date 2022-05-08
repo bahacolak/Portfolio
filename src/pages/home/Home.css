@@ -1,0 +1,25 @@
+.home h1{
+    font-size: 50px;
+  }
+  
+  .home p{
+    font-size: 25px;
+  }
+  
+  .home .btn{
+    color: white;
+    border:1px solid rgb(155, 27, 27);
+    transition: 300ms ease-in-out;
+    align-items: center;
+  }
+  
+  .home .btn:hover{
+    background-color: rgb(155, 27, 27);
+    color: rgb(35, 32, 32);
+    font-weight: bold;
+  }
+  
+  .home .container{
+    display: grid;
+    padding-top: 230px;
+  }
