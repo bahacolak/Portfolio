@@ -4,11 +4,11 @@ import FormInput from "./FormInput";
 
 function Contact() {
   const [values, setValues] = useState({
-    username:"",
+    firstname:"",
+    lastname:"",
     email:"",
-    birthday:"",
-    password:"",
-    confirmPassword:"",
+    subject:"",
+    message:"",
   });
   
   const inputs = [
@@ -18,6 +18,7 @@ function Contact() {
       type: "text",
       placeholder: "First Name",
       label: "First Name",
+      className: "firstname",
     },
     {
       id: 2,
@@ -25,6 +26,7 @@ function Contact() {
       type: "text",
       placeholder: "Last Name",
       label: "Last Name",
+      className: "lastname",
     },
     {
       id: 3,
@@ -32,6 +34,7 @@ function Contact() {
       type: "email",
       placeholder: "Email",
       label: "Email",
+      className:"email",
     },
     {
       id: 4,
@@ -39,14 +42,8 @@ function Contact() {
       type: "text",
       placeholder: "Subject",
       label: "Subject",
+      className: "subject"
     },
-    {
-      id: 5,
-      name: "message",
-      type: "text",
-      placeholder: "Enter your message",
-      label: "Enter your message",
-    }
   ]
 
   const handleSubmit = (e)=>{
@@ -69,6 +66,7 @@ function Contact() {
         However, if you have other request or question, don’t hesitate to use the form.
         </p>
         <form onSubmit={handleSubmit}>
+        
         {inputs.map((input) => (
           <FormInput
             key={input.id}
@@ -76,8 +74,11 @@ function Contact() {
             value={values[input.name]}
             onChange={onChange}
           />
-        ))}           
-          <button>Submit</button>
+        ))}  
+        <div>
+          <textarea name="message" placeholder="Message"></textarea>
+        </div>         
+          <button>Send Message!</button>
         </form>
       </div>
     </div>

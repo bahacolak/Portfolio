@@ -14,5 +14,41 @@
     margin-top: 15px;
   }
 
+  textarea{
+    width: 400px;
+    position: relative;
+    top: 5px;
+    max-height: 300px;
+    min-height: 100px;
+  }
 
- 
+  .email{
+  width: 300px;
+  position: relative;
+  bottom: 35px;
+  }
+
+  .lastname{
+    position: relative;
+    left: 230px;
+    bottom: 58px;
+  }
+
+  .firstname, .lastname{
+    width: 200px;
+  }
+
+  .subject{
+    bottom: 15px;
+    position: relative;
+    width: 300px;
+  }
+
+  button{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+  }
+
+  
