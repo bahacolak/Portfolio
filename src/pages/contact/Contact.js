@@ -14,38 +14,38 @@ function Contact() {
   const inputs = [
     {
       id: 1,
-      name: "username",
+      name: "firstname",
       type: "text",
-      placeholder: "Username",
-      label: "Username",
+      placeholder: "First Name",
+      label: "First Name",
     },
     {
       id: 2,
-      name: "email",
+      name: "lastname",
       type: "text",
+      placeholder: "Last Name",
+      label: "Last Name",
+    },
+    {
+      id: 3,
+      name: "email",
+      type: "email",
       placeholder: "Email",
       label: "Email",
     },
     {
-      id: 3,
-      name: "birthday",
-      type: "text",
-      placeholder: "Birthday",
-      label: "Birthday",
-    },
-    {
       id: 4,
-      name: "password",
-      type: "password",
-      placeholder: "Password",
-      label: "Password",
+      name: "subject",
+      type: "text",
+      placeholder: "Subject",
+      label: "Subject",
     },
     {
       id: 5,
-      name: "confirmPassword",
-      type: "password",
-      placeholder: "Confirm Password",
-      label: "Confirm Password",
+      name: "message",
+      type: "text",
+      placeholder: "Enter your message",
+      label: "Enter your message",
     }
   ]
 
