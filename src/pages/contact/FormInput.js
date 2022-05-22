@@ -1,10 +1,12 @@
 import React from 'react';
 
 function FormInput(props) {
+  const{label, onChange, id, ...inputProps} = props;
+  
   return (
     <div className="forminput">
        {/* <label>username</label> */}
-       <input ref={props.refer} placeholder={props.placeholder} />
+       <input {...inputProps} onChange={onChange} />
     </div>
   )
 }
