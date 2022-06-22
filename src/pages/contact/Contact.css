@@ -15,40 +15,70 @@
   }
 
   textarea{
-    width: 400px;
-    position: relative;
-    top: 5px;
-    max-height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    max-height: 250px;
     min-height: 100px;
+    padding-left: 12px;
   }
 
-  .email{
-  width: 300px;
-  position: relative;
-  bottom: 35px;
+  span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
   }
 
-  .lastname{
-    position: relative;
-    left: 230px;
-    bottom: 58px;
-  }
 
-  .firstname, .lastname{
-    width: 200px;
-  }
-
-  .subject{
-    bottom: 15px;
-    position: relative;
-    width: 300px;
-  }
+input:invalid ~ span{
+    display: block;
+}
 
   button{
-    width: 200px;
-    height: 40px;
-    position: relative;
-    top: 20px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
+
+  .formInput{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+input{
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+label{
+  font-size: 15px;
+  color: gray;
+}
+
+.firstname, .lastname, .email, .subject {
+  width: 100%;
+}
+
+.textarea{
+  margin-top: 25px;
+}
+
+
+
+
+
+  
 
   

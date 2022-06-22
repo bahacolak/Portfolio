@@ -17,32 +17,43 @@ function Contact() {
       name: "firstname",
       type: "text",
       placeholder: "First Name",
+      errorMessage:"It shouldn't be empty",
       label: "First Name",
       className: "firstname",
+      required:true,
     },
     {
       id: 2,
       name: "lastname",
       type: "text",
       placeholder: "Last Name",
+      errorMessage:"It shouldn't be empty",
       label: "Last Name",
       className: "lastname",
+      required:true,
+
     },
     {
       id: 3,
       name: "email",
       type: "email",
       placeholder: "Email",
+      errorMessage:"It should be a valid email adress",
       label: "Email",
       className:"email",
+      required:true,
+
     },
     {
       id: 4,
       name: "subject",
       type: "text",
       placeholder: "Subject",
+      errorMessage:"It shouldn't be empty",
       label: "Subject",
-      className: "subject"
+      className: "subject",
+      required:true,
+
     },
   ]
 
@@ -75,8 +86,8 @@ function Contact() {
             onChange={onChange}
           />
         ))}  
-        <div>
-          <textarea name="message" placeholder="Message"></textarea>
+        <div className="textarea">
+          <textarea name="message" placeholder="Message" required></textarea>
         </div>         
           <button>Send Message!</button>
         </form>
