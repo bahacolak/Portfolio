@@ -12,7 +12,7 @@ function FormInput(props) {
     <div className="forminput">
        <label>{label}</label>
        <input {...inputProps} onChange={onChange} onBlur={handleFocus}/>
-       <span>{errorMessage}</span>
+       <span className="error-message">{errorMessage}</span>
     </div>
   )
 }

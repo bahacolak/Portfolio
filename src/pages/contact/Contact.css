@@ -22,7 +22,7 @@
     padding-left: 12px;
   }
 
-  span{
+  .error-message{
     font-size: 12px;
     padding: 3px;
     color: red;
