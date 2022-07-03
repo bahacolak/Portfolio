@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 
 function FormInput(props) {
+  
+  
+  
   const [focused, setFocused] = useState(false)
   const{label, errorMessage, onChange, id, ...inputProps} = props;
   
@@ -11,7 +14,7 @@ function FormInput(props) {
   return (
     <div className="forminput">
        <label>{label}</label>
-       <input {...inputProps} onChange={onChange} onBlur={handleFocus}/>
+       <input {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()}/>
        <span className="error-message">{errorMessage}</span>
     </div>
   )

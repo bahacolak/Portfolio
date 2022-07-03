@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import "./Contact.css";
 import FormInput from "./FormInput";
+import {motion} from "framer-motion";
+
 
 function Contact() {
   const [values, setValues] = useState({
@@ -70,10 +72,14 @@ function Contact() {
   console.log(values);
 
   return (
-    <div className='contact'>
+    <motion.div className='contact' 
+    initial={{ y: 100 }}
+    animate={{ y: 0 }}
+    
+    >
       <div className="container">
         <h1>Contact me</h1>
-        <p>I am looking for an internship cause of I want to improve myself in the field of coding.
+        <p>I am looking for an job cause of I want to improve myself in the field of coding.
         However, if you have other request or question, don’t hesitate to use the form.
         </p>
         <form onSubmit={handleSubmit}>
@@ -92,7 +98,7 @@ function Contact() {
           <button>Send Message!</button>
         </form>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

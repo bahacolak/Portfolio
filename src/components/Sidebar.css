@@ -4,6 +4,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    
   }
   
   .menu-bars{
@@ -12,6 +13,7 @@
     background: none;
     color:rgb(155, 27, 27);
     transition: 250ms;
+    
   }
   
   .menu-bars:hover{
@@ -28,12 +30,13 @@
     top: 0;
     /* left: -100%; */
     transition: 850ms;
+    z-index: 1;
   }
   
   .nav-menu.active {
     left: 0;
     transition:250ms;
-    /* box-shadow: 20px 300px 250px 10px rgb(54, 54, 158); */
+    /* box-shadow: 20px 300px 250px 10px rgb(54, 54, 158); */   
   }
 
   .nav-menu.active:hover{
@@ -119,16 +122,21 @@
 @media screen and (max-width:900px) {
   .nav-menu{
     left: -100%;
+    position: fixed;
+    z-index: 1;
   }
+
 }
 
 @media screen and (min-width:900px) {
   .navbar-toggle{
     display: none;
+    
   }
 
   .menu-bars{
     display: none;
+    
   }
 }
 

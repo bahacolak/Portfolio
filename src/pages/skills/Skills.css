@@ -1,0 +1,87 @@
+.skills{
+    height: 370vh;
+}
+
+.skills p, h1{
+    margin-left: 10px;
+}
+
+.skills h1 {
+    font-size: 50px;
+}
+
+.skills-p{
+    margin-top: 30px;
+}
+
+
+/*Card styling*/
+
+.card__image__ecodation{
+    height: 110px;
+}
+
+.card__image__foodlion{
+    height: 110px;
+}
+
+.card__image__teknikyapi{
+    height: 110px;
+}
+
+.card__image__revgenius{
+    height: 110px;
+}
+
+.card_bg{
+    background-color: rgb(29, 28, 28);
+    margin: 20px;
+}
+
+#sec{
+    margin-right: 30px;
+}
+
+.location-icon{
+	font-size: 15px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	
+}
+
+
+/*Progress Bar*/
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: static;
+	margin: 10px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #073d30, #292929);
+	box-shadow: 0 3px 3px -5px #1e500f, 0 2px 5px #227a10;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;   
+}
+
+.skill-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

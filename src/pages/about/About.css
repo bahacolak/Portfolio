@@ -1,0 +1,29 @@
+.p-link{
+    color: rgb(116, 18, 214);
+    cursor: pointer;
+    transition: 200ms;
+    
+}
+
+.p-link:hover{
+    color: rebeccapurple;
+    
+}
+
+.about-img{
+    height: 400px;
+    border-radius: 35%;
+    margin-left: 10px;
+}
+
+.about p, h1 {
+    margin-left: 10px;
+}
+
+.about h1{
+    font-size: 50px;
+}
+
+.about-p{
+    margin-top: 30px;
+}

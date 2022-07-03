@@ -1,12 +1,16 @@
 import React from 'react';
 import "./Projects.css";
+import {motion} from "framer-motion";
+
 
 function Projects() {
   return (
-    <div className='projects'>
+    <motion.div className='projects' 
+    initial={{ y: 100 }}
+    animate={{ y: 0 }}
+    >
       <h1>Work in progress</h1>
-      <a><img src='../images/work.jpg'/></a>
-    </div>
+    </motion.div>
   )
 }
 
