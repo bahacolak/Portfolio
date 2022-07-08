@@ -15,7 +15,7 @@ const Progress = ({done}) => {
 		}
 		
 		setStyle(newStyle);
-	}, 200);
+	}, 900);
 	
 	return (
 		<div className="progress">
@@ -36,6 +36,7 @@ function Skills() {
     animate={{ y: 0 }}
     
     >
+      <div className="container">
       <h1>Skills & Experience</h1>
       <div className="skills-p">
       <p>I started my education life with civil engineering. 
@@ -53,6 +54,7 @@ function Skills() {
       In the field of backend development, I have knowledge about technologies such as java and spring boot.
       I continue to learn and improve. I can say that I am extremely enthusiastic about this. 
       </p>
+      </div>
       </div>
 
       

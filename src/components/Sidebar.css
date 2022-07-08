@@ -3,9 +3,9 @@
     height: 80px;
     display: flex;
     justify-content: start;
-    align-items: center;
-    
+    align-items: center;  
   }
+
   
   .menu-bars{
     margin-left: 2rem;
@@ -43,9 +43,9 @@
     /* box-shadow: 10px 20px 50px 10px rgb(155, 27, 27); */
   }
 
-  nav{
+  /* nav{
     box-shadow: 20px 300px 250px 10px rgb(54, 54, 158);
-  }
+  } */
 
   nav:hover{
     box-shadow: 10px 20px 50px 10px rgb(155, 27, 27);
@@ -105,7 +105,7 @@
     justify-content: flex-start;
     border-radius: 4px;
     position: absolute;
-    bottom: 350px;
+    bottom: 220px;
     margin-left: 25px;
   }
 
@@ -130,13 +130,27 @@
 
 @media screen and (min-width:900px) {
   .navbar-toggle{
-    display: none;
+    /* display: none; */
     
   }
 
   .menu-bars{
     display: none;
+  }
+
+  .menu-bars{
+    display: none;
     
+  }
+
+  .nav-text{
+    position: relative;
+    top: 125px;
+  }
+
+  .logo{
+    position: relative;
+    top: 600px;
   }
 }
 

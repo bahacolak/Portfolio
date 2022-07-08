@@ -95,7 +95,7 @@ function Contact() {
         <div className="textarea">
           <textarea name="message" placeholder="Message" required></textarea>
         </div>         
-          <button>Send Message!</button>
+          <button><span>Send Message!</span></button>
         </form>
       </div>
     </motion.div>

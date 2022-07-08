@@ -1,5 +1,5 @@
 .skills{
-    height: 370vh;
+    height: auto;
 }
 
 .skills p, h1{
@@ -80,6 +80,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (min-width:900px){
+	.skills{
+		height: 170vh;
+	}
+
+	.skills .container{
+		position: relative;
+		top: 75px;
+		width: 40%;
+		right: 250px;
+	}
+
+	.skill-bar{
+		position: relative;
+		bottom: 300px;
+		left: 1150px;
+		width: 35%;
+	}
+
+	#sec{
+		position: relative;
+		bottom: 300px;
+	}
 }
 
 
