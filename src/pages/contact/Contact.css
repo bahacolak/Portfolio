@@ -91,6 +91,14 @@ label{
   }
 }
 
+@media screen and (min-width: 600px) and (max-width: 1650px){
+  .contact .container{
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+  }
+}
+
 
 
 

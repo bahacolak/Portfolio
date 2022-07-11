@@ -65,6 +65,21 @@
     }
   }
 
+  @media screen and (min-width: 600px) and (max-width: 1650px) {
+    .home .container{
+      position: relative;
+      top: 80px;
+      right: 115px;
+      width: 50%;
+    }
+
+    .outer-div{
+      position: relative;
+      right: 450px;
+      right: 350px;
+    }
+  }
+
 
 
   

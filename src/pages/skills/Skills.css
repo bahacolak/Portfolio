@@ -107,6 +107,37 @@
 	}
 }
 
+@media screen and (min-width: 600px) and (max-width: 1650px) {
+    .skills{
+		height: auto;
+	}
+
+	.skills .container{
+		position: relative;
+		top: 75px;
+		width: 40%;
+		right: 200px;
+	}
+
+	.skill-bar{
+		position: relative;
+		bottom: 300px;
+		left: 1000px;
+		width: 35%;
+	}
+
+	#sec{
+		position: relative;
+		bottom: 300px;
+	}
+
+	.card_bg{
+		background-color: rgb(29, 28, 28);
+		margin: 120px;
+		margin-top: 10px;
+	}
+  }
+
 
 
 
