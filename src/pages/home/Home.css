@@ -55,30 +55,33 @@
     .home .container{
       position: relative;
       top: 140px;
-      right: 350px;
+      right: 300px;
       width: 25%;
     }
 
     .outer-div{
-      position: relative;
-      right: 450px;
+      /* position: relative;
+      right: 450px; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 
-  @media screen and (min-width: 600px) and (max-width: 1650px) {
+  /* @media screen and (min-width: 600px) and (max-width: 1300px) {
     .home .container{
       position: relative;
-      top: 80px;
-      right: 115px;
+      top: 60px;
+      right: 45px;
       width: 50%;
     }
 
     .outer-div{
-      position: relative;
-      right: 450px;
-      right: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
-  }
+  } */
 
 
 
