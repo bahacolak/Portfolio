@@ -89,7 +89,7 @@ function Skills() {
       <a href="https://ecodation.com/" target="blank">
       <img className="card__image__ecodation" src="https://i.imgur.com/5UBSL6I.jpg" alt=""></img>
       </a>
-      <h3>Software Developing Intern</h3>
+      <h3>Full Stack Java Bootcamp</h3>
       <p><MdIcons.MdLocationPin className="location-icon"/>Istanbul / Turkey</p>
       <p>Skills: Cascading Style Sheets (CSS) · Spring Framework · MySQL · Spring Boot · Java · JavaScript · React.js</p>
       <p>Mar/2/2022 - Present</p>
